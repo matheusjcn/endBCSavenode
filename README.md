@@ -15,8 +15,8 @@ II - Comandos
 2) PostBird ::
 
 I - configuracoes
-localhost
-5432
-postgres
-docker
+-localhost
+-5432
+-postgres
+-docker
 ...
