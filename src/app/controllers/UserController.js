@@ -31,7 +31,7 @@ class UserController {
 
   async update(req, res) {
     // Validations
-    const eschema = Yup.object().shape({
+    const schema = Yup.object().shape({
       name: Yup.string(),
       email: Yup.string().email(),
       oldPassword: Yup.string().min(6),
@@ -45,7 +45,7 @@ class UserController {
       ),
     });
 
-    if (!(await eschema.isValid(req.body))) {
+    if (!(await schema.isValid(req.body))) {
       return res.status(400).json({ error: 'Validation fails' });
     }
 
