@@ -1,4 +1,13 @@
 -----------------------------------
+0) Extensoes VS Code::
+
+- Color Highlight
+- Dracula Official
+- EditorConfig for VS Code
+- ESLint
+- AMaterial Icon Theme
+
+-----------------------------------
 1) Docker :
 
 I - Criando um conteiner postgres
@@ -23,3 +32,4 @@ I - configuracoes
 
 3) Multer ::
 - upload de arquivos
+
