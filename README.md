@@ -10,8 +10,11 @@
 -----------------------------------
 1) Docker :
 
-I - Criando um conteiner postgres
+I - Criando um conteiners:
   - docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 postgres:11
+  - docker run --name mongobarber -p 27017:27017 -d -t mongo
+  - docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
+
 
 II - Comandos
   - docker stop nome_do_container // Parar Container
