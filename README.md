@@ -36,3 +36,7 @@ I - configuracoes
 3) Multer ::
 - upload de arquivos
 
+-----------------------------------
+2) Extennds on ::
+Mailtrap.io
+Sentry.io
